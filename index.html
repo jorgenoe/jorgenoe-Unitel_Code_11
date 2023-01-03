@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FrontBox</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>  
+
+    <header>
+        <div class="menu-bg">
+        <nav class= "menu">
+                <div class="menu_logo">
+                    <a href=" index.html"> <img src="./logo.png" alt=""> </a>     
+                </div> <!--fim do meu menu_logo-->
+            <div class= "nav">
+                <ul class= nav_lista>
+                    <li><a href="#somos" class="nav_link">Quem Somos</a></li>
+                    <li><a href="#cursos" class="nav_link">Nossos Cursos</a></li>
+                    <li><a href="#planos" class="nav_link">Nossos Planos</a></li>    
+                    <li><a href="#vantagens" class="nav_link">Vantagem</a></li>
+               </ul>
+            </div>
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="./menu_white_36dp.svg" alt=""></button>
+                </div>
+         </nav>
+            <div class="mobile-menu">
+                <ul>
+                    <li class="nav-item"><a href="#somos" class="nav-link"> Quem Somos</a></li>
+                    <li class="nav-item"><a href="#cursos" class="nav-link"> Nossos Cursos</a></li>
+                    <li class="nav-item"><a href="#planos" class="nav-link"> Planos</a></li>
+                    <li class="nav-item"><a href="#vantagem" class="nav-link"> Vantagem</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <h1 class= "intro"> Aprenda a programar, <br/1> um projecto por vez!</h1>
+        <hr>
+    </header>
+
+    <section class="somos" id="somos">
+
+        <h2 class="sessao_titulo">Quem somos </h2>
+            <div class="somos_corpo">
+                <div class="somos_texto"> 
+                    <p>
+                        
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                        Dicta nisi aliquid quos. Odio omnis ad repellendus esse magni iure, 
+                        fugit earum sapiente nisi quibusdam adipisci quod sit,
+                        cupiditate, eveniet velit.
+                    </p>
+                    <br>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Dignissimos aspernatur soluta ut accusamus.
+                        Quo dolorem temporibus veniam unde?
+                        Itaque molestias quas odio commodi animi doloribus repellat laudantium unde non dolore.
+                    </p>
+                </div>
+
+
+                <div class="somos_imagem">
+                    <img src="./somos.png" alt="Quem somos">
+                </div>   
+            
+            </div>
+    
+    </section>
+
+
+    <section class="cursos" id="cursos">
+        <h2 class="sessao_titulo"> Nossos Cursos</h2>
+            <div class="curso_corpo">
+                <div class="curso">
+                    <img src="./ai.png" alt= "Inteligência Artificial" class="curso-img">
+                    <h3 class="curso_titulo"> Intelgência Artificial</h3>
+                    <p class="curso_descrição">
+                    Lorem ipsum dolor sit, 
+                    amet consectetur adipisicing elit. Vero, voluptatem rem corrupti cum minus cumque esse in at voluptatum aliquid, 
+                    ab totam quibusdam voluptates aliquam omnis impedit tenetur quidem autem.
+                    </p>
+                </div>
+                <div class="curso">
+                    <img src="./front.png" alt="Frontend" class="curso_img">
+                    <h3 class="curso_titulo">Frontend</h3>
+                    <p class="curso_descrição">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                        Impedit quia minus earum fugiat autem dignissimos doloribus eligendi molestiae,
+                        reiciendis nemo id rem cumque, architecto numquam iste accusamus, nam beatae atque.
+                    </p>
+                </div>
+                <div class="curso">
+                    <img src="./seguranca.png" alt="Segurança da Informação" class="curso_img">
+                    <h3 class= "curso_titulo">Frontend</h3>
+                    <p class="curso_descrição">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                     Ipsa expedita laboriosam exercitationem! Magnam nostrum amet quisquam, 
+                    nesciunt earum ex omnis eveniet corporis exercitationem possimus voluptatum vitae iusto. Veniam, itaque provident.
+                    </p>
+                </div>
+            </div>
+    </section>
+
+    <section class="planos" id="planos">
+        <h2 class= "sessao_titulo"> Planos </h2>
+        <div class="planos_corpo">
+            <div class="plano">
+                <h2 class="plano__titulo"> Básico </h2>
+                <span class="plano__preco"><sup>R$</sup>25</span>
+                <hr class="plano__dvisor">
+                <ul class="plano-lista">
+                    <li class= "Plano-lista__item"> 1 mês de acesso ilimitado</li>
+                    <li class= "Plano-lista__item"> Acesso a todos os cursos</li>
+                    <li class= "Plano-lista__item"> Certificado de conclusão</li>
+                </ul>
+                <a href="#" class="plano__btn-comprar">Comprar</a>
+            </div>
+
+        <div class="plano">
+            <h2 class="plano__titulo">Premium</h2>
+            <span class="plano__preco"><sup>R$</sup>40</span>
+            <hr class="plano__divisor">
+            <ul class="plano-lista">
+                <li class= "Plano-lista_item"> 1 mês de acesso ilimitado</li>
+                <li class= "Plano-lista_item"> Acesso a todos os cursos</li>
+                <li class= "Plano-lista_item"> Certificado de conclusão</li>
+                <li class= "Plano-lista_item"> Suporte</li>
+            </ul>
+            <a href="#" class="plano__btn-comprar">Comprar</a>
+        </div>
+        
+        <div class="plano">
+            <h2 class="plano__titulo">Ultra</h2>
+            <span class="plano__preco"><sup>R$</sup>40</span>
+            <hr class="plano__divisor">
+             <ul class="plano-lista">
+                <li class= "Plano-lista_item"> 1 mês de acesso ilimitado</li>
+                <li class= "Plano-lista_item"> Acesso a todos os cursos</li>
+                <li class= "Plano-lista_item"> Certificado de conclusão</li>
+                <li class= "Plano-lista_item"> Suporte</li>
+                <li class= "Plano-lista_item"> Download das aulas</li>
+            </ul>
+            <a href="#" class="plano__btn-comprar">Comprar</a>
+        </div>
+        </div>
+    </section>
+
+    <section class="vantagens" id="vantagens">
+        <div class="vantagem">
+            <h2 class="vantagem__titulo">Foco em projeto</h2>
+            <p class="vantagem__descriçao"> Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                 Eligendi quae est quas laborum, 
+                vero quia amet eveniet blanditiis in veniam esse
+                 consequatur numquam animi voluptate soluta,
+                dicta voluptates nesciunt? Quo.</p>
+        </div>
+
+        <div class="vantagem">
+            <h2 class="vantagem__titulo"> Portfólio Incrível</h2>
+            <p class="vantagem__descriçao"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Quaerat, ipsum minima dicta, autem doloremque numquam asperiores, possimus ex eligendi unde in!
+                Voluptates fugiat tempore nemo hic cupiditate eius exercitationem recusandae!</p>
+        </div>
+    
+        <div class="vantagem">
+            <h2 class="vantagem__titulo"> Aprenda Fazendo</h2>
+            <p class= "vantagem descricao"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure ipsam perspiciatis maiores, dignissimos consequatur 
+                nulla accusantium eos tempora cupiditate quam aspernatur ipsa, 
+                corrupti hic vero illum a labore ipsum quibusdam!</p>
+        </div>
+
+        <div class="vantagem">
+            <h2 class="vantagem__titulo"> Para todas as idades</h2>
+            <p class= "vantagem descricao"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure ipsam perspiciatis maiores, dignissimos consequatur 
+                nulla accusantium eos tempora cupiditate quam aspernatur ipsa, 
+                corrupti hic vero illum a labore ipsum quibusdam!</p>
+        </div>
+
+        <div class="vantagem">
+            <h2 class="vantagem__titulo"> Actualizando</h2>
+            <p class= "vantagem descricao"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure ipsam perspiciatis maiores, dignissimos consequatur 
+                nulla accusantium eos tempora cupiditate quam aspernatur ipsa, 
+                corrupti hic vero illum a labore ipsum quibusdam!</p>
+        </div>
+
+        
+        <div class="vantagem">
+            <h2 class="vantagem__titulo"> Comece hoje</h2>
+            <p class="vantagem__descriçao"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, 
+                facilis exercitationem. Ratione quo, blanditiis veritatis voluptatibus eum ullam hic recusandae! 
+                Est aperiam quod, quos laudantium fuga illum qui et nulla.</p>
+        </div>
+    </section>  
+
+<section class="newsletter">
+    <div class="newsletter-container">
+        <div class="newsletter-info"> 
+            <h2 class="newsletter-info__titulo">Newsletter</h2>
+                <p class="newsletter-info__descricao"> Assine e fique por dentro das novidades </p>
+        </div>
+        <form action="" class="newsletter-form">
+                <input type="text" placeholder="seu e-mail" class="newsletter-form_input"> 
+                <button type="submit" class="newsletter-form_submit">Assinar</button>
+        </form>
+    </div>
+</section>
+
+<footer class="footer">
+    <p class="footer_copyright"> Este é um projecto que servirá de maquete para o vosso projecto final    
+    </p>
+
+
+    <a href="index.html">
+        <img src="./logo.png" alt="Frontbox" class="footer__logo">
+    </a>
+</footer>
+<script src="./javascript.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</section>
